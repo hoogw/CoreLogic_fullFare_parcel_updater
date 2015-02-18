@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FullFareModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="FullFares">
+    <Key>
+      <PropertyRef Name="OBJECTID_1" />
+    </Key>
+    <Property Name="OBJECTID_1" Type="int" Nullable="false" />
+    <Property Name="APN" Type="nvarchar" MaxLength="12" />
+    <Property Name="APNLINK" Type="nvarchar" MaxLength="9" />
+    <Property Name="APNLINK2" Type="nvarchar" MaxLength="10" />
+    <Property Name="RELATE_KEY" Type="nvarchar" MaxLength="10" />
+    <Property Name="AREA" Type="float" />
+    <Property Name="PERIMETER" Type="float" />
+    <Property Name="PARCELS_" Type="float" />
+    <Property Name="PARCELS_ID" Type="float" />
+    <Property Name="ADDRESSPRP" Type="nvarchar" MaxLength="50" />
+    <Property Name="Situs_House_No_House_Alpha" Type="float" />
+    <Property Name="Situs_Direction_Street_Suffix" Type="nvarchar" MaxLength="60" />
+    <Property Name="Situs_City_State_ZIP_ZIP_4_DWL" Type="nvarchar" MaxLength="60" />
+    <Property Name="Situs_ZIP_ZIP_4" Type="nvarchar" MaxLength="20" />
+    <Property Name="Situs_Carrier_Route" Type="nvarchar" MaxLength="20" />
+    <Property Name="Owner_Name__First_Name_First_" Type="nvarchar" MaxLength="60" />
+    <Property Name="Owner_First_Name" Type="nvarchar" MaxLength="40" />
+    <Property Name="Owner_Middle_Name" Type="nvarchar" MaxLength="40" />
+    <Property Name="Owner_Last_Name" Type="nvarchar" MaxLength="40" />
+    <Property Name="Owner_Spouse_First_Middle" Type="nvarchar" MaxLength="40" />
+    <Property Name="Owner_2" Type="nvarchar" MaxLength="60" />
+    <Property Name="Mail_Care_Of_Name" Type="nvarchar" MaxLength="60" />
+    <Property Name="Mail_Address" Type="nvarchar" MaxLength="60" />
+    <Property Name="Mail_City_State_ZIP_ZIP_4_DWL" Type="nvarchar" MaxLength="60" />
+    <Property Name="Mail_State_DWL" Type="nvarchar" MaxLength="2" />
+    <Property Name="Mail_ZIP_ZIP_4" Type="nvarchar" MaxLength="10" />
+    <Property Name="Mail_Carrier_Route" Type="nvarchar" MaxLength="4" />
+    <Property Name="Phone_Number" Type="nvarchar" MaxLength="20" />
+    <Property Name="Land_Use" Type="nvarchar" MaxLength="30" />
+    <Property Name="Zoning" Type="nvarchar" MaxLength="10" />
+    <Property Name="Stories_No" Type="float" />
+    <Property Name="No_Residential_Units" Type="nvarchar" MaxLength="4" />
+    <Property Name="Gross_Area" Type="float" />
+    <Property Name="Bldg_Living_Area" Type="float" />
+    <Property Name="Adj_Area__Total_" Type="nvarchar" MaxLength="10" />
+    <Property Name="Basement_Area" Type="nvarchar" MaxLength="8" />
+    <Property Name="Total_Rooms" Type="float" />
+    <Property Name="Bedrooms" Type="float" />
+    <Property Name="Baths__Total_" Type="float" />
+    <Property Name="Baths__Full_" Type="float" />
+    <Property Name="Baths__Half_" Type="nvarchar" MaxLength="2" />
+    <Property Name="Fixtures_Number" Type="nvarchar" MaxLength="4" />
+    <Property Name="Pool" Type="nvarchar" MaxLength="20" />
+    <Property Name="Fireplace_Number" Type="float" />
+    <Property Name="Parking_Type" Type="nvarchar" MaxLength="250" />
+    <Property Name="Parking_Size" Type="nvarchar" MaxLength="8" />
+    <Property Name="Parking_Type2_Code" Type="nvarchar" MaxLength="10" />
+    <Property Name="Garage_2_Area" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sale_Price" Type="float" />
+    <Property Name="Price_per_Square_Foot" Type="float" />
+    <Property Name="Sale_Price_Type1_DWL" Type="nvarchar" MaxLength="4" />
+    <Property Name="Sale_Type_2" Type="nvarchar" MaxLength="12" />
+    <Property Name="Recording_Date" Type="smalldatetime" />
+    <Property Name="Sale_Date" Type="smalldatetime" />
+    <Property Name="Document_Number" Type="nvarchar" MaxLength="20" />
+    <Property Name="st_TD_Amount" Type="float" />
+    <Property Name="st_TD_Loan_Type" Type="nvarchar" MaxLength="20" />
+    <Property Name="st_TD_Term_No" Type="float" />
+    <Property Name="st_TD_Int_Rate" Type="float" />
+    <Property Name="st_TD_Int_Rate_Type" Type="nvarchar" MaxLength="10" />
+    <Property Name="Deed_Type" Type="nvarchar" MaxLength="40" />
+    <Property Name="Lender" Type="nvarchar" MaxLength="250" />
+    <Property Name="Prior_Sale_Price" Type="float" />
+    <Property Name="Prior_Sale_Type_Code1" Type="nvarchar" MaxLength="4" />
+    <Property Name="Prior_Sale_Date" Type="smalldatetime" />
+    <Property Name="Seller" Type="nvarchar" MaxLength="60" />
+    <Property Name="Construction_Type" Type="nvarchar" MaxLength="20" />
+    <Property Name="Foundation" Type="nvarchar" MaxLength="12" />
+    <Property Name="Exterior_Wall" Type="nvarchar" MaxLength="30" />
+    <Property Name="Roof_Material_Type" Type="nvarchar" MaxLength="30" />
+    <Property Name="Roof_Type" Type="nvarchar" MaxLength="20" />
+    <Property Name="Interior_Wall" Type="nvarchar" MaxLength="10" />
+    <Property Name="Air_Conditioning" Type="nvarchar" MaxLength="20" />
+    <Property Name="Heat_Fuel" Type="nvarchar" MaxLength="10" />
+    <Property Name="Heat_Type" Type="nvarchar" MaxLength="30" />
+    <Property Name="Frame" Type="nvarchar" MaxLength="10" />
+    <Property Name="Floor_Type" Type="nvarchar" MaxLength="10" />
+    <Property Name="Assessment_Year" Type="float" />
+    <Property Name="Land_Value" Type="float" />
+    <Property Name="Improvement_Value" Type="float" />
+    <Property Name="Total_Value" Type="float" />
+    <Property Name="Total_Value__Taxable_" Type="float" />
+    <Property Name="Property_Tax" Type="float" />
+    <Property Name="Tax_Area" Type="float" />
+    <Property Name="Lot_Acreage" Type="float" />
+    <Property Name="Lot_Area" Type="float" />
+    <Property Name="County_Land_Use" Type="float" />
+    <Property Name="State_Use" Type="nvarchar" MaxLength="4" />
+    <Property Name="Improvement_Type" Type="nvarchar" MaxLength="4" />
+    <Property Name="Site_Influence" Type="nvarchar" MaxLength="20" />
+    <Property Name="Site_Waterfront" Type="nvarchar" MaxLength="4" />
+    <Property Name="Alt_Old_APN" Type="nvarchar" MaxLength="12" />
+    <Property Name="APN_Card_First" Type="nvarchar" MaxLength="4" />
+    <Property Name="APN_Card_Last" Type="nvarchar" MaxLength="4" />
+    <Property Name="Map_Ref1" Type="nvarchar" MaxLength="6" />
+    <Property Name="Map_Ref2" Type="nvarchar" MaxLength="6" />
+    <Property Name="Municipality" Type="nvarchar" MaxLength="40" />
+    <Property Name="Year_Built" Type="float" />
+    <Property Name="Year_Built__Effective_" Type="nvarchar" MaxLength="4" />
+    <Property Name="Township_Range_Section" Type="nvarchar" MaxLength="6" />
+    <Property Name="Census_Tract" Type="float" />
+    <Property Name="Subdivision" Type="nvarchar" MaxLength="50" />
+    <Property Name="Legal_Block" Type="nvarchar" MaxLength="10" />
+    <Property Name="Legal_Lot" Type="nvarchar" MaxLength="10" />
+    <Property Name="Legal_Plat_BkPg" Type="nvarchar" MaxLength="50" />
+    <Property Name="Legal_Description" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="FullFareModelStoreContainer">
+    <EntitySet Name="FullFares" EntityType="Self.FullFares" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FullFareModelStoreContainer" CdmEntityContainer="FullFareEntities">
+    <EntitySetMapping Name="FullFares">
+      <EntityTypeMapping TypeName="FullFareModel.FullFare">
+        <MappingFragment StoreEntitySet="FullFares">
+          <ScalarProperty Name="OBJECTID_1" ColumnName="OBJECTID_1" />
+          <ScalarProperty Name="APN" ColumnName="APN" />
+          <ScalarProperty Name="APNLINK" ColumnName="APNLINK" />
+          <ScalarProperty Name="APNLINK2" ColumnName="APNLINK2" />
+          <ScalarProperty Name="RELATE_KEY" ColumnName="RELATE_KEY" />
+          <ScalarProperty Name="AREA" ColumnName="AREA" />
+          <ScalarProperty Name="PERIMETER" ColumnName="PERIMETER" />
+          <ScalarProperty Name="PARCELS_" ColumnName="PARCELS_" />
+          <ScalarProperty Name="PARCELS_ID" ColumnName="PARCELS_ID" />
+          <ScalarProperty Name="ADDRESSPRP" ColumnName="ADDRESSPRP" />
+          <ScalarProperty Name="Situs_House_No_House_Alpha" ColumnName="Situs_House_No_House_Alpha" />
+          <ScalarProperty Name="Situs_Direction_Street_Suffix" ColumnName="Situs_Direction_Street_Suffix" />
+          <ScalarProperty Name="Situs_City_State_ZIP_ZIP_4_DWL" ColumnName="Situs_City_State_ZIP_ZIP_4_DWL" />
+          <ScalarProperty Name="Situs_ZIP_ZIP_4" ColumnName="Situs_ZIP_ZIP_4" />
+          <ScalarProperty Name="Situs_Carrier_Route" ColumnName="Situs_Carrier_Route" />
+          <ScalarProperty Name="Owner_Name__First_Name_First_" ColumnName="Owner_Name__First_Name_First_" />
+          <ScalarProperty Name="Owner_First_Name" ColumnName="Owner_First_Name" />
+          <ScalarProperty Name="Owner_Middle_Name" ColumnName="Owner_Middle_Name" />
+          <ScalarProperty Name="Owner_Last_Name" ColumnName="Owner_Last_Name" />
+          <ScalarProperty Name="Owner_Spouse_First_Middle" ColumnName="Owner_Spouse_First_Middle" />
+          <ScalarProperty Name="Owner_2" ColumnName="Owner_2" />
+          <ScalarProperty Name="Mail_Care_Of_Name" ColumnName="Mail_Care_Of_Name" />
+          <ScalarProperty Name="Mail_Address" ColumnName="Mail_Address" />
+          <ScalarProperty Name="Mail_City_State_ZIP_ZIP_4_DWL" ColumnName="Mail_City_State_ZIP_ZIP_4_DWL" />
+          <ScalarProperty Name="Mail_State_DWL" ColumnName="Mail_State_DWL" />
+          <ScalarProperty Name="Mail_ZIP_ZIP_4" ColumnName="Mail_ZIP_ZIP_4" />
+          <ScalarProperty Name="Mail_Carrier_Route" ColumnName="Mail_Carrier_Route" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Land_Use" ColumnName="Land_Use" />
+          <ScalarProperty Name="Zoning" ColumnName="Zoning" />
+          <ScalarProperty Name="Stories_No" ColumnName="Stories_No" />
+          <ScalarProperty Name="No_Residential_Units" ColumnName="No_Residential_Units" />
+          <ScalarProperty Name="Gross_Area" ColumnName="Gross_Area" />
+          <ScalarProperty Name="Bldg_Living_Area" ColumnName="Bldg_Living_Area" />
+          <ScalarProperty Name="Adj_Area__Total_" ColumnName="Adj_Area__Total_" />
+          <ScalarProperty Name="Basement_Area" ColumnName="Basement_Area" />
+          <ScalarProperty Name="Total_Rooms" ColumnName="Total_Rooms" />
+          <ScalarProperty Name="Bedrooms" ColumnName="Bedrooms" />
+          <ScalarProperty Name="Baths__Total_" ColumnName="Baths__Total_" />
+          <ScalarProperty Name="Baths__Full_" ColumnName="Baths__Full_" />
+          <ScalarProperty Name="Baths__Half_" ColumnName="Baths__Half_" />
+          <ScalarProperty Name="Fixtures_Number" ColumnName="Fixtures_Number" />
+          <ScalarProperty Name="Pool" ColumnName="Pool" />
+          <ScalarProperty Name="Fireplace_Number" ColumnName="Fireplace_Number" />
+          <ScalarProperty Name="Parking_Type" ColumnName="Parking_Type" />
+          <ScalarProperty Name="Parking_Size" ColumnName="Parking_Size" />
+          <ScalarProperty Name="Parking_Type2_Code" ColumnName="Parking_Type2_Code" />
+          <ScalarProperty Name="Garage_2_Area" ColumnName="Garage_2_Area" />
+          <ScalarProperty Name="Sale_Price" ColumnName="Sale_Price" />
+          <ScalarProperty Name="Price_per_Square_Foot" ColumnName="Price_per_Square_Foot" />
+          <ScalarProperty Name="Sale_Price_Type1_DWL" ColumnName="Sale_Price_Type1_DWL" />
+          <ScalarProperty Name="Sale_Type_2" ColumnName="Sale_Type_2" />
+          <ScalarProperty Name="Recording_Date" ColumnName="Recording_Date" />
+          <ScalarProperty Name="Sale_Date" ColumnName="Sale_Date" />
+          <ScalarProperty Name="Document_Number" ColumnName="Document_Number" />
+          <ScalarProperty Name="st_TD_Amount" ColumnName="st_TD_Amount" />
+          <ScalarProperty Name="st_TD_Loan_Type" ColumnName="st_TD_Loan_Type" />
+          <ScalarProperty Name="st_TD_Term_No" ColumnName="st_TD_Term_No" />
+          <ScalarProperty Name="st_TD_Int_Rate" ColumnName="st_TD_Int_Rate" />
+          <ScalarProperty Name="st_TD_Int_Rate_Type" ColumnName="st_TD_Int_Rate_Type" />
+          <ScalarProperty Name="Deed_Type" ColumnName="Deed_Type" />
+          <ScalarProperty Name="Lender" ColumnName="Lender" />
+          <ScalarProperty Name="Prior_Sale_Price" ColumnName="Prior_Sale_Price" />
+          <ScalarProperty Name="Prior_Sale_Type_Code1" ColumnName="Prior_Sale_Type_Code1" />
+          <ScalarProperty Name="Prior_Sale_Date" ColumnName="Prior_Sale_Date" />
+          <ScalarProperty Name="Seller" ColumnName="Seller" />
+          <ScalarProperty Name="Construction_Type" ColumnName="Construction_Type" />
+          <ScalarProperty Name="Foundation" ColumnName="Foundation" />
+          <ScalarProperty Name="Exterior_Wall" ColumnName="Exterior_Wall" />
+          <ScalarProperty Name="Roof_Material_Type" ColumnName="Roof_Material_Type" />
+          <ScalarProperty Name="Roof_Type" ColumnName="Roof_Type" />
+          <ScalarProperty Name="Interior_Wall" ColumnName="Interior_Wall" />
+          <ScalarProperty Name="Air_Conditioning" ColumnName="Air_Conditioning" />
+          <ScalarProperty Name="Heat_Fuel" ColumnName="Heat_Fuel" />
+          <ScalarProperty Name="Heat_Type" ColumnName="Heat_Type" />
+          <ScalarProperty Name="Frame" ColumnName="Frame" />
+          <ScalarProperty Name="Floor_Type" ColumnName="Floor_Type" />
+          <ScalarProperty Name="Assessment_Year" ColumnName="Assessment_Year" />
+          <ScalarProperty Name="Land_Value" ColumnName="Land_Value" />
+          <ScalarProperty Name="Improvement_Value" ColumnName="Improvement_Value" />
+          <ScalarProperty Name="Total_Value" ColumnName="Total_Value" />
+          <ScalarProperty Name="Total_Value__Taxable_" ColumnName="Total_Value__Taxable_" />
+          <ScalarProperty Name="Property_Tax" ColumnName="Property_Tax" />
+          <ScalarProperty Name="Tax_Area" ColumnName="Tax_Area" />
+          <ScalarProperty Name="Lot_Acreage" ColumnName="Lot_Acreage" />
+          <ScalarProperty Name="Lot_Area" ColumnName="Lot_Area" />
+          <ScalarProperty Name="County_Land_Use" ColumnName="County_Land_Use" />
+          <ScalarProperty Name="State_Use" ColumnName="State_Use" />
+          <ScalarProperty Name="Improvement_Type" ColumnName="Improvement_Type" />
+          <ScalarProperty Name="Site_Influence" ColumnName="Site_Influence" />
+          <ScalarProperty Name="Site_Waterfront" ColumnName="Site_Waterfront" />
+          <ScalarProperty Name="Alt_Old_APN" ColumnName="Alt_Old_APN" />
+          <ScalarProperty Name="APN_Card_First" ColumnName="APN_Card_First" />
+          <ScalarProperty Name="APN_Card_Last" ColumnName="APN_Card_Last" />
+          <ScalarProperty Name="Map_Ref1" ColumnName="Map_Ref1" />
+          <ScalarProperty Name="Map_Ref2" ColumnName="Map_Ref2" />
+          <ScalarProperty Name="Municipality" ColumnName="Municipality" />
+          <ScalarProperty Name="Year_Built" ColumnName="Year_Built" />
+          <ScalarProperty Name="Year_Built__Effective_" ColumnName="Year_Built__Effective_" />
+          <ScalarProperty Name="Township_Range_Section" ColumnName="Township_Range_Section" />
+          <ScalarProperty Name="Census_Tract" ColumnName="Census_Tract" />
+          <ScalarProperty Name="Subdivision" ColumnName="Subdivision" />
+          <ScalarProperty Name="Legal_Block" ColumnName="Legal_Block" />
+          <ScalarProperty Name="Legal_Lot" ColumnName="Legal_Lot" />
+          <ScalarProperty Name="Legal_Plat_BkPg" ColumnName="Legal_Plat_BkPg" />
+          <ScalarProperty Name="Legal_Description" ColumnName="Legal_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

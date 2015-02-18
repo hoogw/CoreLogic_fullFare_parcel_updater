@@ -1,0 +1,16 @@
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\Full_Fare.exe.config
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\Full_Fare.exe
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\Full_Fare.pdb
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\EntityFramework.dll
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\EntityFramework.SqlServer.dll
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\Excel.dll
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\EntityFramework.xml
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\EntityFramework.SqlServer.xml
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\bin\Debug\Excel.pdb
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.csprojResolveAssemblyReference.cache
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.Properties.Resources.resources
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.csproj.GenerateResource.Cache
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.exe
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.pdb
+C:\jh\backup\CoreLogic\Full_fare\Full_Fare\Full_Fare\obj\Debug\Full_Fare.Full_Fare.resources
